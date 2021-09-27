@@ -1,99 +1,135 @@
 .content {
+  margin-top: 8%;
+}
+.content-left {
+  display: flex;
+  width: 80%;
   margin: 0 auto;
-  width: 69%;
-  margin-top: 20px;
-  display: flex;
 }
-.content-container {
-  display: flex;
-  margin: 40px;
+.container-info h3 {
+  width: 80%;
+  margin: 20px;
 }
-.judul {
-  width: 400px;
-  height: 100px;
-  position: absolute;
-  margin-left: 310px;
-  margin-top: 40px;
+.container-info p {
+  font-size: 12px;
 }
-.judul h1 {
-  width: 400px;
-  margin: 40px 0;
+.container-img {
+  width: 50%;
+  height: 45%;
 }
-.content img {
-  margin-left: -70px;
+.container-img img {
+  margin: 0 auto;
+  border-radius: 10%;
+  width: 220px;
+  height: 280px;
 }
-.content-1 {
-  width: 500px;
-  height: 200px;
-  margin-top: 200px;
-  margin-left: 20px;
+.container-img div {
+  width: 70%;
+  margin: 0 auto;
 }
-.vedio {
-  display: flex;
-  width: 600px;
-  margin: 40px auto;
+.container-info {
+  width: 70%;
+}
+.content-down {
+  width: 70%;
+  margin: 0 auto;
+}
+.content-down iframe {
+  width: 70%;
+  height: 210px;
+  margin: 40px 15%;
+}
+.share {
+  width: 67%;
+  margin: 0 auto;
+}
+.share h4 {
+  text-align: center;
 }
 .icon {
-  margin: auto 0;
-  width: 20px;
-  height: 316px;
-  background-color: black;
+  width: 80%;
+  margin: 25px auto;
 }
 .icon ul {
-  width: 200px;
+  width: 55%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
 }
 .icon ul li {
-  margin: 30px -10px;
   list-style: none;
-  border-radius: 50%;
+  margin-left: 20px;
 }
-.icon ul li a {
-  text-decoration: none;
+.icon ul li img {
+  width: 50px;
 }
-.icon img {
-  border-radius: 50%;
-  max-width: 40px;
+.yt {
+  width: 100px;
+  margin-top: 15%;
 }
-.container-comment {
-  display: flex;
-  margin-top: 60px;
+.fb {
+  width: 700px;
 }
-.container-comment button {
+.footer {
+  margin-top: 43px;
+  border-top: 2px solid rgb(95, 90, 90);
+}
+.footer p {
   text-align: center;
-  align-content: center;
-  border: 1px solid;
+}
+.join-us {
+  width: 16.5%;
   margin: 0 auto;
+}
+.join-us button {
+  width: 150px;
+  height: 50px;
   border-radius: 5px;
-  text-decoration: none;
+  align-items: center;
   color: white;
-  background-color: rgb(1, 116, 223);
-  width: 200px;
-  height: 35px;
-  font-size: 20px;
+  background-color: rgb(61, 75, 58);
 }
-.container-comment button:hover {
-  background-color: rgba(142, 13, 168, 0.719);
+.join-us button:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
-
-@media only screen and (max-width: 600px) {
-  .content {
-    height: 900px;
+@media screen and (max-width: 600px) {
+  .join-us {
+    width: 150px;
+  }
+  .footer {
+    margin-top: 150px;
+  }
+  .content-down {
+    margin-top: 20px;
+    width: 90%;
+  }
+  .content-left img {
+    margin-left: 27px;
+  }
+  .content-left {
     display: block;
-    width: 80%;
   }
-  .content-1 {
-    position: absolute;
-    width: 340px;
-    height: 300px;
-    margin: 580px -38px;
+  .container-img {
+    width: 100%;
+    margin: 0 auto;
   }
-  .judul h1 {
-    margin-top: 500px;
-    margin-left: -385px;
-    font-size: 28px;
+  .container-img div {
+    width: 75%;
+  }
+  .container-info {
+    margin: 0 auto;
+  }
+  .container-info p {
     text-align: center;
   }
-  .vedio {
-    width: 400px;
+  .icon ul {
+    width: 80%;
+  }
+  .icon ul li img {
+    width: 30px;
+  }
+  iframe {
+    height: 210px;
   }
 }
